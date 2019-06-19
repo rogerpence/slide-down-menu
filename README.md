@@ -6,6 +6,8 @@ This repo shows:
 * declarative event handlers (see detail below) 
 * a start of a styled mobile-friendly grid. 
 
+[demo](https://rogerpence.github.io/slide-down-menu/index.html)
+
 ---
 
 ### Declarative DOM element event handlers 
