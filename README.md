@@ -1,4 +1,4 @@
-### Slide-down menu and declarative event handlers. 
+## Slide-down menu and declarative event handlers. 
 
 This repo shows:
 
@@ -6,27 +6,9 @@ This repo shows:
 * declarative event handlers (see detail below) 
 * a start of a styled mobile-friendly grid. 
 
+---
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-## Declarative DOM element event handlers 
+### Declarative DOM element event handlers 
 
 There are great JavaScript libraries (React and Vue.js, for example) that take a lot of the pain out of wiring up DOM element event handlers. However, for many simple projects those libraries are just too heavy. This article provides a simple, declarative way to assign multiple DOM element event handlers using custom HTML attributes. 
 
