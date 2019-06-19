@@ -1,0 +1,179 @@
+div.container {
+    display: grid;
+    min-height: 100vh;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto 1fr auto;
+    font-family: sans-serif;
+}
+
+.bx {
+    border: 1px solid red;
+}
+
+header {
+    background: white;
+    grid-row-start: 1;
+}
+
+main {
+    background: lightgray;
+    grid-row-start: 2;
+}
+
+footer {
+    background: whitesmoke;
+    grid-row: 3;
+}
+
+svg {
+    transition: 500ms ease;
+    border: none;
+}
+
+a.icon {
+    text-decoration: none;
+}
+
+.rotate180 {
+    transform: rotate(180deg);
+    transform-origin: 50% 50%;
+}
+
+nav.main-nav {
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav.secondary-nav {
+    height: 0;
+    /* max-height: 0; */
+    transition: all 400ms linear;
+    /* transition: max-height 800ms linear; */
+    background-color: whitesmoke;
+}
+
+nav.secondary-nav.expanded {
+    height: 6.5em;
+}
+
+.nav-padding {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: .5rem;
+    padding-right: .5rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    border-top: solid 2px gray;
+}
+
+.icon {
+    padding-right: .5rem;
+}
+
+.nav-bar-item {
+    padding: .5rem;
+}
+
+.left-nav,
+.right-nav {
+    align-self: center;
+}
+
+.rounded-corners {
+    border-radius: 6px;
+}
+
+input {
+    padding: 4px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    outline: none;
+}
+
+label[for="customer-search-value"] {
+    font-size: .8rem;
+}
+
+.m-0 {
+    margin: 0;
+}
+
+.m-2 {
+    margin: .5rem;
+}
+
+.m-4 {
+    margin: 1rem;
+}
+
+.mr-0 {
+    margin: 0;
+}
+
+.mr-2 {
+    margin: .5rem;
+}
+
+.mr-4 {
+    margin: 1rem;
+}
+
+textarea:focus,
+input:focus {
+    /* outline: none; */
+}
+
+section {
+    padding: 1rem 1rem 1rem 1rem;
+}
+
+.table {
+    width: 100%;
+    border: 1px solid gray;
+    font-size: .8rem;
+}
+
+.table tr th {
+    background-color: darkgray;
+    padding: .5rem .1rem .5rem .1rem;
+    text-align: left;
+}
+
+.table tr td {
+    padding: .2rem .1rem .2rem .1rem;
+    text-align: left;
+    border-right: 1px solid gray;
+}
+
+.table tbody tr:nth-child(odd) {
+    background-color: whitesmoke;
+}
+
+.table tr td:nth-child(1) {
+    width: 25%;
+}
+
+.table tr td:nth-child(2) {
+    width: 35%
+}
+
+.table tr td:nth-child(3) {
+    width: 35%;
+}
+
+.table tr td:nth-child(4) {
+    width: 5%;
+}
+
+
+/* .table tr td {
+    padding: .5rem .1rem .5rem .1rem;
+} */
+
+.chevron {
+    padding-right: .1rem;
+}
+
+@media (min-width: 1024px) {}
