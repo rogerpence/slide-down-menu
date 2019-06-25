@@ -54,7 +54,6 @@ to bind the handlers to the corresponding events. JavaScript exceptions are thro
 
 That's all it takes. The autobound handlers will now react to the assigned events. 
 
-#### How assignAutoboundEventHandlers
 
     assignAutoboundEventHandlers = function() {
         convertToArray = function (str, delimiter = ',') {
@@ -90,6 +89,8 @@ That's all it takes. The autobound handlers will now react to the assigned event
             assignElementEventHandlers(events);
         })
     }    
+
+#### How assignAutoboundEventHandlers works
 
 assignAutoboundEventHandlers has just a few main areas: 
 
